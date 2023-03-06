@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+.navbar{
+    background-color: yellow;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+#home{
+    background: url(image/ersab-bg-img.png) center no-repeat;
+    background-size: cover;
+}
+
+#homeText{
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+#services{
+    background: yellow;
+}
+
+#about{
+    background: url(image/background-1.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contactUs{
+    background: linear-gradient(to top, white, yellow);
+}
+
